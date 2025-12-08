@@ -5,7 +5,7 @@
 
 ## 🎯 Prerequisites and Developer Responsibility
 
-The training is based on a [**simple FastAPI application**](https://fastapi.tiangolo.com), manageable by any engineer familiar with foundational programming concepts. We expect everyone to **explore the capabilities and limitations of GitHub Copilot**. You'll learn how to prompt effectively, use agentic features safely, and validate generated code.
+The training is based on a [**FastAPI application**](https://fastapi.tiangolo.com), manageable by any engineer familiar with foundational programming concepts. We expect everyone to **explore the capabilities and limitations of GitHub Copilot**. You'll learn how to prompt effectively, use agentic features safely, and validate generated code.
 
 We encourage you to discuss actively with your colleagues during the session, and **manifest your new learned skills** by continuing to practice the concepts outside of the classroom.
 
