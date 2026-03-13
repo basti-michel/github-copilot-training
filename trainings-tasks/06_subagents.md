@@ -12,8 +12,8 @@ Subagents allow Copilot to delegate focused work into isolated contexts and retu
 
 This exercise requires:
 
-- **VS Code 1.109 or newer**
-- Current GitHub Copilot and GitHub Copilot Chat extensions
+- **VS Code 1.111 or newer**
+- Latest GitHub Copilot Chat extensions, 0.39.0 or newer
 - **`chat.customAgentInSubagent.enabled`** enabled
 
 ---
@@ -47,7 +47,7 @@ This is especially valuable in Copilot because it lets you:
 
 | Step | Feature | Instructions |
 | :--- | :--- | :--- |
-| **6.1** | **Enable Subagents** | Open **Copilot Chat**, switch the mode picker to **Agent**, open the **Tools** menu, and enable **`runSubagent`**. Also verify the setting **`Chat > Agent in Subagent`** is enabled. |
+| **6.1** | **Enable Subagents** | Open **Copilot Chat**, switch the mode picker to **Agent**, and verify the setting **Chat > Agent in Subagent** (`chat.customAgentInSubagent.enabled`) is enabled. |
 | **6.2** | **Review Prepared Agents** | Review the prepared agents in `.github/agents`: `FeatureBuilder`, `RepoResearcher`, `Implementer`, and `Reviewer`. Focus on each agent’s role, tools, and model configuration. |
 | **6.3** | **Use the Coordinator** | In Copilot Chat, keep the mode picker on **Agent** and select **Feature Builder** from the custom agent picker. |
 | **6.4** | **Run a Structured Task** | **Chat:** `Build a new endpoint to change task status. Use Repo Researcher as a subagent to locate the FastAPI structure and current status handling. Then use Implementer as a subagent to add the endpoint. Then use Reviewer as a subagent to review correctness, typing, and tests. Finish with a concise summary, risks, and follow-up.` |
@@ -90,5 +90,4 @@ The goal is not to memorize one workflow, but to learn how to shape and inspect 
 ## 💡 References & Further Reading
 
 * [VS Code: Subagents](https://code.visualstudio.com/docs/copilot/agents/subagents)
-* [VS Code Update 1.109](https://code.visualstudio.com/updates/v1_109)
 * [VS Code Blog: Your Home for Multi-Agent Development](https://code.visualstudio.com/blogs/2026/02/05/multi-agent-development)
